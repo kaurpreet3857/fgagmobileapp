@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Content, Text, List, ListItem } from "native-base";
 
-const routes = ["About", "Abc"];
+const routes = ["Prayer Request", "Videos", "Pictures", "Contact Us", "About Us", "Directory"];
 
 export default class SideBar extends React.Component {
     render() {

@@ -14,9 +14,12 @@ import {
 	Button
 } from "native-base";
 
-class Abc extends React.Component {
+import commonStyles from '../commonStyles';
+
+class Pictures extends React.Component {
 
 	render() {
+		
 		return (
 			<Container>
 				<Header>
@@ -27,16 +30,16 @@ class Abc extends React.Component {
 							<Icon name="menu" />
 						</Button>
 					</Left>
-					<Body>
-						<Title>other page</Title>
-					</Body>
+					
+					<Title style={commonStyles.headerStyle}>Pictures</Title>
+
 					<Right />
 				</Header>
 				<Content padder>
 					<Card>
 						<CardItem>
 							<Body>
-								<Text>Chat App to talk some awesome people!</Text>
+								<Text>Pictures</Text>
 							</Body>
 						</CardItem>
 					</Card>
@@ -46,4 +49,4 @@ class Abc extends React.Component {
 	}
 }
 
-export default Abc;
+export default Pictures;

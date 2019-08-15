@@ -16,7 +16,7 @@ import {
 
 import commonStyles from '../commonStyles';
 
-class About extends React.Component {
+class PrayerRequest extends React.Component {
 
 	render() {
 		
@@ -31,15 +31,15 @@ class About extends React.Component {
 						</Button>
 					</Left>
 					
-					<Title style={commonStyles.headerStyle}>About Us</Title>
-					
+					<Title style={commonStyles.headerStyle}>Prayer Request</Title>
+
 					<Right />
 				</Header>
 				<Content padder>
 					<Card>
 						<CardItem>
 							<Body>
-								<Text>about</Text>
+								<Text>Prayer Request</Text>
 							</Body>
 						</CardItem>
 					</Card>
@@ -49,4 +49,4 @@ class About extends React.Component {
 	}
 }
 
-export default About;
+export default PrayerRequest;

@@ -5,13 +5,21 @@ import { createDrawerNavigator, createAppContainer } from "react-navigation";
 //side bar
 import SideBar from "../components/Sidebar";
 //screens
+import PrayerRequest from "../screens/PrayerRequest";
+import Videos from "../screens/Videos";
+import Pictures from "../screens/Pictures";
+import ContactUs from "../screens/ContactUs";
 import About from "../screens/About";
-import Abc from "../screens/Abc";
+import Directory from "../screens/Directory";
 
 const AppNavigator = createDrawerNavigator(
     {
-        About: { screen: About },
-        Abc: { screen: Abc }
+        "Prayer Request": { screen: PrayerRequest },
+        "Videos": { screen: Videos },
+        "Pictures": { screen: Pictures },
+        "Contact Us": { screen: ContactUs },
+        "About Us": { screen: About },
+        "Directory": { screen: Directory },
     },
     {
         contentComponent: props => <SideBar {...props} />
