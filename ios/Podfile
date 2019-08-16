@@ -6,9 +6,8 @@ target 'fgag' do
   use_frameworks!
 
   # Pods for fgag
-  pod 'React', :path => '../node_modules/react-native/'
-
-  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+  
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
   target 'fgagTests' do
     inherit! :search_paths
